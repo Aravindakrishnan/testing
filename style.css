@@ -10,6 +10,10 @@ input {
   background: rgb(54, 69, 69);
   border-bottom: 4px solid dodgerblue;
   outline: none;
+  color:#fff;
+}
+input::placeholder{
+  color:grey;
 }
 button {
   padding: 12px;
