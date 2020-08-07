@@ -9,6 +9,5 @@
    console.log(developer);
   
 ```
-
-|Love|Developing|Programming|
-|---|---|---|
+|Developing|Programming|
+|---|---|
