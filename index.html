@@ -8,18 +8,14 @@
   </head>
   <body>
     <h1>Alert Box 🤔</h1>
-    <div class="alert danger">
-      You Have a Dangerous Bug in your system 🐛
-    </div>
-    <div class="alert primary">
-      You Have a Primary Bug in your system 😅
-    </div>
-    <div class="alert success">
-      You Have a Success Bug in your system 🍏
-    </div>
-    <div class="alert warning">
-      You Have a Warning Bug in your system 💛
-    </div>
+
+    <input
+      id="inputdata"
+      type="text"
+      placeholder="Type primary | danger | success | warning"
+    />
+    <button id="btn">Submit</button>
+    <div id="alertbox"></div>
     <script src="./app.js"></script>
   </body>
 </html>

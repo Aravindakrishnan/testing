@@ -1,6 +1,29 @@
 * {
   font-family: Sofia pro;
 }
+
+input {
+  width: 80%;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 20px;
+  background: rgb(54, 69, 69);
+  border-bottom: 4px solid dodgerblue;
+  outline: none;
+}
+button {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  outline: none;
+  color: #fff;
+  background: dodgerblue;
+  border-bottom: 4px solid #123456;
+}
+button:active {
+  border-top: 3px solid #123456;
+  border-bottom: 0px solid #123456;
+}
 .alert {
   padding: 12px;
   border-radius: 7px;
@@ -21,4 +44,9 @@
 
 .warning {
   background: #ffff00;
+}
+
+.nfound {
+  background: grey;
+  color: #fff;
 }
