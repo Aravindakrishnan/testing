@@ -1,0 +1,24 @@
+* {
+  font-family: Sofia pro;
+}
+.alert {
+  padding: 12px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+.danger {
+  background: #fd4321;
+  color: #fff;
+}
+
+.primary {
+  background: dodgerblue;
+}
+
+.success {
+  background: #00ff00;
+}
+
+.warning {
+  background: #ffff00;
+}
